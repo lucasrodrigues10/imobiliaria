@@ -52,4 +52,27 @@ $(document).ready(function () {
         }
     } );
 
+    $("#nav-pagina-inicial").click(function () {
+        $("#pagina-inicial").show();
+        $("#senhorios").hide();
+        $("#inquilinos").hide();
+    })
+
+    $("#nav-inquilinos").click(function () {
+        $("#pagina-inicial").hide();
+        $("#senhorios").hide();
+        $("#inquilinos").show();
+    })
+
+    $("#nav-senhorios").click(function () {
+        $("#pagina-inicial").hide();
+        $("#senhorios").show();
+        $("#inquilinos").hide();
+    })
+
+    $(".img-car").click(function () {
+        $('#jb-res').hide();
+        $('#jb-det').show();
+    })
+
 });
