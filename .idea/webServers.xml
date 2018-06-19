@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="6b2896cf-a5c4-40e9-a68f-9549fc5a0e7c" name="imobiliaria_site" url="http://files.000webhost.com">
+        <fileTransfer host="files.000webhost.com" port="21" rootFolder="/public_html">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="8ea9a748-015b-4374-a968-6106805e5358" name="imobiliaria_server" url="http://177.33.177.209">
+        <fileTransfer host="177.33.177.209" port="419">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" />
+          </advancedOptions>
+          <option name="port" value="419" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
