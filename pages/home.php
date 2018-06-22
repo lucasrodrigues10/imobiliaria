@@ -504,7 +504,7 @@
         <div class="card-body">
             <h5 class="card-title">Digite o id:</h5>
             <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
+            <a href="../others/boleto.pdf" class="btn btn-primary" download>Baixar</a>
         </div>
     </div>
     <div class="card text-center my-2">
