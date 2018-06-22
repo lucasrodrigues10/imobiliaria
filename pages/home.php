@@ -594,6 +594,76 @@
         </div>
     </div>
     <div class="card text-center my-2">
+        <h5 class="card-header">Editar Anúncios</h5>
+        <div class="card-body">
+            <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                    <span class="input-group-text">ID do Anuncio</span>
+                </div>
+                <input type="text" class="form-control"">
+            </div>
+            <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                    <span class="input-group-text">Endereço</span>
+                </div>
+                <input type="text" class="form-control"">
+            </div>
+            <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                    <span class="input-group-text">Preco</span>
+                </div>
+                <input type="text" class="form-control"">
+            </div>
+            <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                    <span class="input-group-text">Area</span>
+                </div>
+                <input type="text" class="form-control"">
+            </div>
+            <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                    <span class="input-group-text">Dormitorios</span>
+                </div>
+                <input type="text" class="form-control"">
+            </div>
+            <div class="row">
+                <div class="col-6">
+                    <div class="input-group mb-3">
+                        <div class="input-group-prepend">
+                            <label class="input-group-text">Qual tipo?</label>
+                        </div>
+                        <select class="custom-select">
+                            <option>Apartamento</option>
+                            <option>Casa</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="input-group mb-3">
+                        <div class="input-group-prepend">
+                            <label class="input-group-text">Alugar ou Vender</label>
+                        </div>
+                        <select class="custom-select">
+                            <option>Alugar</option>
+                            <option>Vender</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                </div>
+                <div class="custom-file">
+                    <input type="file" class="custom-file-input" id="inputGroupFile01">
+                    <label class="custom-file-label" for="inputGroupFile01">Enviar Fotos</label>
+                </div>
+            </div>
+            <button class="btn btn-danger">Editar</button>
+
+        </div>
+    </div>
+
+    <div class="card text-center my-2">
         <h5 class="card-header">Relatório resumo</h5>
         <div class="card-body">
             <table class="table table-striped table-hover text-center text-hover">
