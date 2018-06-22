@@ -494,16 +494,28 @@
     <div class="card text-center my-2">
         <h5 class="card-header">Alugar</h5>
         <div class="card-body">
-            <h5 class="card-title">Digite o id:</h5>
-            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
+            <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                    <span class="input-group-text" id="inputGroup-sizing-default">Digite o ID do Anuncio</span>
+                </div>
+                <input type="text" class="form-control" aria-label="Default"
+                       aria-describedby="inputGroup-sizing-default">
+            </div>
+            <p class="card-text">Após digitar o ID, clique em alugar</p>
+            <a href="../others/boleto.pdf" class="btn btn-primary" download>Alugar</a>
         </div>
     </div>
     <div class="card text-center my-2">
         <h5 class="card-header">2ª Via do Boleto</h5>
         <div class="card-body">
-            <h5 class="card-title">Digite o id:</h5>
-            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+            <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                    <span class="input-group-text" id="inputGroup-sizing-default">Digite o ID do Anuncio</span>
+                </div>
+                <input type="text" class="form-control" aria-label="Default"
+                       aria-describedby="inputGroup-sizing-default">
+            </div>
+            <p class="card-text">Após digitar o ID, baixe a segunda via</p>
             <a href="../others/boleto.pdf" class="btn btn-primary" download>Baixar</a>
         </div>
     </div>
@@ -518,9 +530,10 @@
     <div class="card text-center my-2">
         <h5 class="card-header">Reclamação</h5>
         <div class="card-body">
-            <h5 class="card-title">Digite o id:</h5>
-            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
+            <div class="form-group">
+                <textarea class="form-control" rows="6" placeholder="Digite a sua reclamação"></textarea>
+            </div>
+            <button class="btn btn-primary">Enviar</button>
         </div>
     </div>
 </div>
