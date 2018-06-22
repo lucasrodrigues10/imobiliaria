@@ -30,7 +30,6 @@
         </form>
         <hr>
         <button type="button" onclick="location.href = 'pages/home.html';">Entrar sem conta</button>
-
     </div>
 
 </div>

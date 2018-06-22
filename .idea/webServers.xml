@@ -18,6 +18,9 @@
           <option name="port" value="419" />
         </fileTransfer>
       </webServer>
+      <webServer id="d18e439b-4b9b-4ab5-b51b-6b3dc8ee24a3" name="imobiliaria_local" url="http://localhost/imobiliaria">
+        <fileTransfer port="0" mountedRoot="C:\xampp\htdocs\imobiliaria" accessType="MOUNT" />
+      </webServer>
     </option>
   </component>
 </project>
