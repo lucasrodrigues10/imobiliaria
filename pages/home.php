@@ -16,10 +16,10 @@
 </head>
 <body background="../others/background.jpg">
 <div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-white border-bottom box-shadow">
-    <h5 class="my-0 mr-md-auto font-weight-normal"><a href="home.html"><img src="../others/house.png" id="logo"></a>
+    <h5 class="my-0 mr-md-auto font-weight-normal"><a href="home.php"><img src="../others/house.png" id="logo"></a>
     </h5>
     <nav class="my-2 my-md-0 mr-md-3">
-        <a class="p-2 text-dark" href="home.html" id="nav-pagina-inicial">Página Inicial</a>
+        <a class="p-2 text-dark" href="home.php" id="nav-pagina-inicial">Página Inicial</a>
         <a class="p-2 text-dark" href="#" id="nav-inquilinos">Inquilinos</a>
         <a class="p-2 text-dark" href="#" id="nav-senhorios">Senhorios</a>
     </nav>
@@ -39,8 +39,33 @@
                 <h4 class="my-0 font-weight-normal">Pesquisar</h4>
             </div>
             <div class="card-body">
+                <div class="row">
 
+                    <div class="col-6">
+                        <div class="input-group mb-3">
+                            <div class="input-group-prepend">
+                                <label class="input-group-text">Qual tipo?</label>
+                            </div>
+                            <select class="custom-select">
+                                <option>Apartamento</option>
+                                <option>Casa</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="input-group mb-3">
+                            <div class="input-group-prepend">
+                                <label class="input-group-text">Cidade</label>
+                            </div>
+                            <select class="custom-select">
+                                <option>São Bernardo do Campo</option>
+                                <option>São Caetano do Sul</option>
+                                <option>São Paulo</option>
+                            </select>
+                        </div>
+                    </div>
 
+                </div>
                 <div class="jumbotron bg-warning" id="jb-avan" style="display: none">
                     <div class="row">
                         <div class="col-6">

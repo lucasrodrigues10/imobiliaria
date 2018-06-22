@@ -40,12 +40,11 @@
         <form class="login-form">
             <input type="text" placeholder="usuario"/>
             <input type="password" placeholder="senha"/>
-            <button type="button" onclick="location.href = 'pages/home.html';">Entrar</button>
-
+            <button type="button" onclick="location.href = 'pages/home.php';">Entrar</button>
             <p class="message">Não é registrado? <a href="#">Crie uma conta</a></p>
         </form>
         <hr>
-        <button type="button" onclick="location.href = 'pages/home.html';">Entrar sem conta</button>
+        <button type="button" onclick="location.href = 'pages/home.php';">Entrar sem conta</button>
     </div>
 
 </div>
