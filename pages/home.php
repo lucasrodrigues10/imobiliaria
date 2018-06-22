@@ -520,14 +520,6 @@
         </div>
     </div>
     <div class="card text-center my-2">
-        <h5 class="card-header">Relatório de alugueis pagos</h5>
-        <div class="card-body">
-            <h5 class="card-title">Digite o id:</h5>
-            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
-        </div>
-    </div>
-    <div class="card text-center my-2">
         <h5 class="card-header">Reclamação</h5>
         <div class="card-body">
             <div class="form-group">
@@ -539,27 +531,104 @@
 </div>
 <div class="container" id="senhorios" style="display: none">
     <div class="card text-center my-2">
-        <h5 class="card-header">Anúncios</h5>
+        <h5 class="card-header">Criar Anúncios</h5>
         <div class="card-body">
-            <h5 class="card-title">Digite o id:</h5>
-            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
+            <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                    <span class="input-group-text">Endereço</span>
+                </div>
+                <input type="text" class="form-control"">
+            </div>
+            <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                    <span class="input-group-text">Preco</span>
+                </div>
+                <input type="text" class="form-control"">
+            </div>
+            <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                    <span class="input-group-text">Area</span>
+                </div>
+                <input type="text" class="form-control"">
+            </div>
+            <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                    <span class="input-group-text">Dormitorios</span>
+                </div>
+                <input type="text" class="form-control"">
+            </div>
+            <div class="row">
+                <div class="col-6">
+                    <div class="input-group mb-3">
+                        <div class="input-group-prepend">
+                            <label class="input-group-text">Qual tipo?</label>
+                        </div>
+                        <select class="custom-select">
+                            <option>Apartamento</option>
+                            <option>Casa</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="input-group mb-3">
+                        <div class="input-group-prepend">
+                            <label class="input-group-text">Alugar ou Vender</label>
+                        </div>
+                        <select class="custom-select">
+                            <option>Alugar</option>
+                            <option>Vender</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                </div>
+                <div class="custom-file">
+                    <input type="file" class="custom-file-input" id="inputGroupFile01">
+                    <label class="custom-file-label" for="inputGroupFile01">Enviar Fotos</label>
+                </div>
+            </div>
+            <button class="btn btn-primary">Criar</button>
+
         </div>
     </div>
     <div class="card text-center my-2">
         <h5 class="card-header">Relatório resumo</h5>
         <div class="card-body">
-            <h5 class="card-title">Digite o id:</h5>
-            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
+            <table class="table table-striped table-hover text-center text-hover">
+                <thead>
+                <tr>
+                    <th scope="col">ID</th>
+                    <th scope="col">Endereço</th>
+                    <th scope="col">Status</th>
+                    <th scope="col">Valor</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Rua Augusta, 421</td>
+                    <td>Pago</td>
+                    <td>R$ 300,00</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Rua Augusta, 421</td>
+                    <td>Aguardando pagamento</td>
+                    <td>R$ 200,00</td>
+                </tr>
+                </tbody>
+            </table>
         </div>
     </div>
     <div class="card text-center my-2">
-        <h5 class="card-header">Reclamações</h5>
+        <h5 class="card-header">Reclamação</h5>
         <div class="card-body">
-            <h5 class="card-title">Digite o id:</h5>
-            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
+            <div class="form-group">
+                <textarea class="form-control" rows="6" placeholder="Digite a sua reclamação"></textarea>
+            </div>
+            <button class="btn btn-primary">Enviar</button>
         </div>
     </div>
 </div>
