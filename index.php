@@ -40,7 +40,7 @@
         <form class="login-form">
             <input type="text" placeholder="usuario"/>
             <input type="password" placeholder="senha"/>
-            <button type="button" onclick="location.href = 'pages/home.php';">Entrar</button>
+            <button id = "login" type="button" >Entrar</button>
             <p class="message">Não é registrado? <a href="#">Crie uma conta</a></p>
         </form>
         <hr>
@@ -62,5 +62,6 @@
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script src="js/login.js"></script>
+<script src="js/params.js"></script>
 </body>
 </html>
