@@ -67,6 +67,7 @@
 <script src="js/login.js"></script>
 <script src="js/params.js"></script>
 <script src="js/registrar.js"></script>
+<script src="js/anuncio.js"></script>
 
 </body>
 </html>

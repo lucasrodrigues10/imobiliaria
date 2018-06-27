@@ -46,7 +46,7 @@
                             <div class="input-group-prepend">
                                 <label class="input-group-text">Qual tipo?</label>
                             </div>
-                            <select class="custom-select">
+                            <select id="tipoimovel"class="custom-select">
                                 <option>Apartamento</option>
                                 <option>Casa</option>
                             </select>
@@ -57,7 +57,7 @@
                             <div class="input-group-prepend">
                                 <label class="input-group-text">Cidade</label>
                             </div>
-                            <select class="custom-select">
+                            <select id="cidadeimovel" class="custom-select">
                                 <option>São Bernardo do Campo</option>
                                 <option>São Caetano do Sul</option>
                                 <option>São Paulo</option>
@@ -136,7 +136,7 @@
                         </button>
                     </div>
                     <div class="p-2 bd-highlight">
-                        <button type="button" class="btn btn-lg  btn-primary" id="btn-buscar">Buscar</button>
+                        <button id="buscaimovel" type="button" class="btn btn-lg  btn-primary" id="btn-buscar">Buscar</button>
                     </div>
                 </div>
                 <div class="jumbotron" id="jb-res" style="display: none">
@@ -157,7 +157,7 @@
                                 <th>Valor</th>
                             </tr>
                             </thead>
-                            <tbody>
+                            <tbody id= "anuncios" >
                             <tr id="anuncio1">
                                 <td>Avenida Paulista</td>
                                 <td>
@@ -777,7 +777,10 @@
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"
         integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
         crossorigin="anonymous"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script src="../js/main.js"></script>
+<script src="../js/buscar_imoveis.js"></script>
+<script src="../js/params.js"></script>
 <script type="text/javascript" src="https://cdn.datatables.net/v/dt/dt-1.10.16/datatables.min.js"></script>
 
 </body>
