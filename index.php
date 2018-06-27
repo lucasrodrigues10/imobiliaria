@@ -38,8 +38,8 @@
             <p class="message">Já é registrado? <a href="#">Entrar</a></p>
         </form>
         <form class="login-form">
-            <input type="text" placeholder="usuario"/>
-            <input type="password" placeholder="senha"/>
+            <input id="textlogin" type="text" placeholder="usuario"/>
+            <input id="textpass"  type="password" placeholder="senha"/>
             <button id = "login" type="button" >Entrar</button>
             <p class="message">Não é registrado? <a href="#">Crie uma conta</a></p>
         </form>

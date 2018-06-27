@@ -4,9 +4,11 @@ $('.message a').click(function () {
 });
 
 $('#login').click(function(){
-	dados={
-			login:"jonas@maua.br",
-			pass:"123456"
+	dados = {
+		
+		
+			login:$("#textlogin").val(),
+			pass:$("#textpass").val()
 		}
 	
 	$.ajax({
@@ -18,7 +20,7 @@ $('#login').click(function(){
 		statusCode:{
 			200: function (response){
 				console.log("aceitou");
-				window.location.href = "http://www.google.com";
+				window.location.href = "pages/home.php";
 			}
 		}
 		
