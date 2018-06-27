@@ -20,21 +20,24 @@
         <h5 class="my-0 mr-md-auto font-weight-normal"><a href="#"><img src="others/house.png" height="50px"></a></h5>
 
         <form class="register-form">
-            <input type="text" placeholder="usuario"/>
-            <input type="password" placeholder="senha"/>
-            <input type="text" placeholder="email"/>
+            <input id="regNome"  type="text" placeholder="Nome"/>
+            <input id="regPass" type="password" placeholder="senha"/>
+            <input id="regEmail" type="text" placeholder="email"/>
+            <input id="regCpf" type="text" placeholder="CPF"/>
+            <input id="regRg" type="text" placeholder="RG"/>
+            <input id="regTel" type="text" placeholder="Telefone"/>
             <div class="col-12">
                 <div class="input-group mb-3">
                     <div class="input-group-prepend">
-                        <label class="input-group-text">Tipo</label>
+                        <label  class="input-group-text">Tipo</label>
                     </div>
-                    <select class="custom-select">
+                    <select id='regTipo' class="custom-select">
                         <option>Inquilino</option>
                         <option>Proprietário</option>
                     </select>
                 </div>
             </div>
-            <button>Criar conta</button>
+            <button id="registrar" >Criar conta</button>
             <p class="message">Já é registrado? <a href="#">Entrar</a></p>
         </form>
         <form class="login-form">
@@ -63,5 +66,7 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script src="js/login.js"></script>
 <script src="js/params.js"></script>
+<script src="js/registrar.js"></script>
+
 </body>
 </html>

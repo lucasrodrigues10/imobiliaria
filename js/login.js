@@ -4,9 +4,7 @@ $('.message a').click(function () {
 });
 
 $('#login').click(function(){
-	dados = {
-		
-		
+	dados = {	
 			login:$("#textlogin").val(),
 			pass:$("#textpass").val()
 		}
